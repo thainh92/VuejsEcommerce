@@ -26,6 +26,14 @@ const routes = [
                     title: 'Product list',
                 }
             },
+            {
+                path: 'form/:id',
+                component:()=> import('./Form'),
+                name: 'updateProduct',
+                meta: {
+                    title:'Update Product'
+                }
+            }
         ]
     }
 ]

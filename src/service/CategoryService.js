@@ -8,7 +8,6 @@ class CategoryService {
             params: params
         });
     }
-
 }
 
 export default new CategoryService();

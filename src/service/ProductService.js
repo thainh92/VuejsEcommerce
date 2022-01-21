@@ -18,8 +18,12 @@ class ProductService {
         return axios.post(URL_PRODUCTS + "/add", data);
     }
 
-    updateProduct(id, data) {
-        return axios.post(URL_PRODUCTS + "/edit/" + id, data);
+    updateProduct(data) {
+        return axios.put(URL_PRODUCTS + "/edit", data);
+    }
+
+    findById(id) {
+        return axios.get(URL_PRODUCTS + "/detail/" + id);
     }
 }
 

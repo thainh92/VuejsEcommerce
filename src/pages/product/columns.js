@@ -24,6 +24,13 @@ export const columns = [
         key: 'price',
         scopedSlots: {customRender: 'price'},
     },
+    // {
+    //     dataIndex: 'categoryId',
+    //     key: 'categoryId',
+    //     title: 'Category ID',
+    //     slots: {title: 'categoryId'},
+    //     scopedSlots: {customRender: 'categoryId'},
+    // },
     {
         title: 'Action',
         key: 'action',
